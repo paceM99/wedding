@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
         
         <h1 className="font-serif text-5xl md:text-7xl font-light text-wedding-dark-brown mb-4">
-          Florian <span className="text-wedding-medium-brown">&</span> Menia
+          Menia <span className="text-wedding-medium-brown">&</span> Florian
         </h1>
         <p className="text-xl md:text-2xl text-wedding-medium-brown mb-6 font-light">
           Für immer zusammen

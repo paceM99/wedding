@@ -33,7 +33,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <h1 className="font-serif text-xl font-semibold text-wedding-dark-brown">
-            Florian & Menia
+            Menia & Florian
           </h1>
           
           {/* Desktop Navigation */}

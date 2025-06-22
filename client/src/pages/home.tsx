@@ -18,7 +18,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-wedding-dark-brown text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <p className="font-serif text-xl mb-2">Florian & Menia</p>
+          <p className="font-serif text-xl mb-2">Menia & Florian</p>
           <p className="text-sm opacity-75">15. Juni 2024 • Rosewood Manor, Cotswolds</p>
         </div>
       </footer>

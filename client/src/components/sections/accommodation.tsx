@@ -19,7 +19,7 @@ export default function Accommodation() {
       priceRange: "£120-180/Nacht",
       rating: 4.8,
       image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Nennen Sie "Florian&Menia" für 15% Rabatt'
+      specialOffer: 'Nennen Sie "Menia&Florian" für 15% Rabatt'
     },
     {
       name: "Cotswold Manor Hotel",
@@ -28,7 +28,7 @@ export default function Accommodation() {
       priceRange: "£200-350/Nacht",
       rating: 4.9,
       image: "https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Nennen Sie "Florian&Menia" für 20% Rabatt'
+      specialOffer: 'Nennen Sie "Menia&Florian" für 20% Rabatt'
     },
     {
       name: "Meadowside B&B",
@@ -37,7 +37,7 @@ export default function Accommodation() {
       priceRange: "£80-120/Nacht",
       rating: 4.7,
       image: "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Nennen Sie "Florian&Menia" für 10% Rabatt'
+      specialOffer: 'Nennen Sie "Menia&Florian" für 10% Rabatt'
     },
     {
       name: "The Lygon Arms",

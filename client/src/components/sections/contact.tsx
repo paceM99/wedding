@@ -24,7 +24,7 @@ export default function Contact() {
               </p>
               <p className="flex items-center text-wedding-dark-brown">
                 <Mail className="text-wedding-medium-brown mr-3 h-5 w-5" />
-                <span><strong>E-Mail:</strong> rsvp@florianundmenia.de</span>
+                <span><strong>E-Mail:</strong> rsvp@meniaundFlorian.de</span>
               </p>
               <p className="flex items-center text-wedding-dark-brown">
                 <Phone className="text-wedding-medium-brown mr-3 h-5 w-5" />
@@ -46,14 +46,14 @@ export default function Contact() {
                 <User className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5" />
                 <div>
                   <strong>Braut:</strong> Menia Schmidt<br />
-                  <span className="text-sm">menia@florianundmenia.de</span>
+                  <span className="text-sm">menia@meniaundFlorian.de</span>
                 </div>
               </div>
               <div className="flex items-start text-wedding-dark-brown">
                 <User className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5" />
                 <div>
                   <strong>Bräutigam:</strong> Florian Müller<br />
-                  <span className="text-sm">florian@florianundmenia.de</span>
+                  <span className="text-sm">florian@meniaundFlorian.de</span>
                 </div>
               </div>
               <div className="flex items-start text-wedding-dark-brown">
