@@ -102,7 +102,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection('home')}
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
-                  Home
+                  Startseite
                 </button>
               </li>
               <li>
@@ -110,7 +110,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection('schedule')}
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
-                  Schedule
+                  Zeitplan
                 </button>
               </li>
               <li>
@@ -118,7 +118,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection('venue')}
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
-                  Venue
+                  Veranstaltungsort
                 </button>
               </li>
               <li>
@@ -126,7 +126,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection('accommodation')}
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
-                  Stay
+                  Übernachtung
                 </button>
               </li>
               <li>
@@ -134,7 +134,7 @@ export default function Navigation() {
                   onClick={() => scrollToSection('contact')}
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
-                  Contact
+                  Kontakt
                 </button>
               </li>
             </ul>

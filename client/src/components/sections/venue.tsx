@@ -32,10 +32,10 @@ export default function Venue() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-light text-wedding-dark-brown mb-4">
-            Venue & Location
+            Veranstaltungsort & Lage
           </h2>
           <p className="text-lg text-wedding-medium-brown max-w-2xl mx-auto">
-            Nestled in the heart of the beautiful Cotswolds countryside
+            Eingebettet im Herzen der wunderschönen Cotswolds Landschaft
           </p>
         </div>
 
@@ -64,11 +64,11 @@ export default function Venue() {
                 </p>
                 <p className="flex items-start">
                   <Car className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5 flex-shrink-0" />
-                  <span>Free parking available on-site</span>
+                  <span>Kostenlose Parkplätze vor Ort</span>
                 </p>
                 <p className="flex items-start">
                   <Users className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5 flex-shrink-0" />
-                  <span>Wheelchair accessible facilities</span>
+                  <span>Rollstuhlgerechte Einrichtungen</span>
                 </p>
               </div>
             </div>
@@ -84,36 +84,36 @@ export default function Venue() {
 
             <div className="space-y-4">
               <h4 className="font-serif text-xl font-semibold text-wedding-dark-brown">
-                Getting There
+                Anreise
               </h4>
               
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Car className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  By Car
+                  Mit dem Auto
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  From London: M40 to Junction 8, then A40 towards Cheltenham
+                  Von London: M40 bis Ausfahrt 8, dann A40 Richtung Cheltenham
                 </p>
               </div>
 
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Train className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  By Train
+                  Mit dem Zug
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Nearest station: Moreton-in-Marsh (15 minutes by taxi)
+                  Nächster Bahnhof: Moreton-in-Marsh (15 Minuten mit dem Taxi)
                 </p>
               </div>
 
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Plane className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  By Air
+                  Mit dem Flugzeug
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Birmingham Airport (1 hour drive) or Heathrow (1.5 hours)
+                  Flughafen Birmingham (1 Stunde Fahrt) oder Heathrow (1,5 Stunden)
                 </p>
               </div>
             </div>

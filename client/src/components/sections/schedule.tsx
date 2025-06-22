@@ -12,35 +12,35 @@ interface ScheduleItem {
 export default function Schedule() {
   const scheduleItems: ScheduleItem[] = [
     {
-      time: "2:30 PM",
-      duration: "30 minutes",
-      title: "Wedding Ceremony",
-      description: "Join us as we exchange vows in the beautiful Rose Garden",
-      location: "Rosewood Manor Gardens",
+      time: "14:30",
+      duration: "30 Minuten",
+      title: "Trauungszeremonie",
+      description: "Begleiten Sie uns beim Austausch der Ehegelübde im wunderschönen Rosengarten",
+      location: "Rosewood Manor Gärten",
       icon: <Heart className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "3:30 PM",
-      duration: "90 minutes",
-      title: "Cocktail Hour & Photos",
-      description: "Enjoy drinks and canapés while we capture memories",
-      location: "Manor Terrace & Grounds",
+      time: "15:30",
+      duration: "90 Minuten",
+      title: "Sektempfang & Fotos",
+      description: "Genießen Sie Getränke und Canapés, während wir Erinnerungen festhalten",
+      location: "Herrenhaus Terrasse & Garten",
       icon: <Camera className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "6:00 PM",
-      duration: "3 hours",
-      title: "Wedding Reception",
-      description: "Three-course dinner with speeches and toasts",
-      location: "Grand Ballroom",
+      time: "18:00",
+      duration: "3 Stunden",
+      title: "Hochzeitsfeier",
+      description: "Drei-Gänge-Menü mit Reden und Ansprachen",
+      location: "Großer Ballsaal",
       icon: <Utensils className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "9:00 PM",
-      duration: "Until late",
-      title: "Dancing & Celebration",
-      description: "Live band and DJ to dance the night away",
-      location: "Grand Ballroom & Terrace",
+      time: "21:00",
+      duration: "Bis spät",
+      title: "Tanz & Feier",
+      description: "Live-Band und DJ zum Tanzen bis in die frühen Morgenstunden",
+      location: "Großer Ballsaal & Terrasse",
       icon: <Music className="text-wedding-medium-brown mr-2 h-5 w-5" />
     }
   ];
@@ -50,10 +50,10 @@ export default function Schedule() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-light text-wedding-dark-brown mb-4">
-            Wedding Schedule
+            Hochzeitsablauf
           </h2>
           <p className="text-lg text-wedding-medium-brown max-w-2xl mx-auto">
-            Join us for a day filled with love, laughter, and celebration
+            Feiern Sie mit uns einen Tag voller Liebe, Lachen und Freude
           </p>
         </div>
 
