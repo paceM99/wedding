@@ -33,7 +33,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <h1 className="font-serif text-xl font-semibold text-wedding-dark-brown">
-            Emma & James
+            Florian & Menia
           </h1>
           
           {/* Desktop Navigation */}
@@ -43,7 +43,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('home')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
-                Home
+                Startseite
               </button>
             </li>
             <li>
@@ -51,7 +51,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('schedule')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
-                Schedule
+                Zeitplan
               </button>
             </li>
             <li>
@@ -59,7 +59,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('venue')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
-                Venue
+                Veranstaltungsort
               </button>
             </li>
             <li>
@@ -67,7 +67,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('accommodation')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
-                Stay
+                Übernachtung
               </button>
             </li>
             <li>
@@ -75,7 +75,7 @@ export default function Navigation() {
                 onClick={() => scrollToSection('contact')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
-                Contact
+                Kontakt
               </button>
             </li>
           </ul>
