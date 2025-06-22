@@ -14,57 +14,57 @@ export default function Accommodation() {
   const accommodations: Accommodation[] = [
     {
       name: "The Rose & Crown Inn",
-      location: "Chipping Campden (2 minutes from venue)",
-      description: "Historic coaching inn with individually designed rooms and award-winning restaurant.",
-      priceRange: "£120-180/night",
+      location: "Chipping Campden (2 Minuten vom Veranstaltungsort)",
+      description: "Historisches Gasthaus mit individuell gestalteten Zimmern und preisgekröntem Restaurant.",
+      priceRange: "£120-180/Nacht",
       rating: 4.8,
       image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Quote "Emma&James" for 15% discount'
+      specialOffer: 'Nennen Sie "Florian&Menia" für 15% Rabatt'
     },
     {
       name: "Cotswold Manor Hotel",
-      location: "Broadway (8 minutes from venue)",
-      description: "Luxury hotel in a 16th-century manor with spa facilities and beautiful gardens.",
-      priceRange: "£200-350/night",
+      location: "Broadway (8 Minuten vom Veranstaltungsort)",
+      description: "Luxushotel in einem Herrenhaus aus dem 16. Jahrhundert mit Spa-Einrichtungen und schönen Gärten.",
+      priceRange: "£200-350/Nacht",
       rating: 4.9,
       image: "https://images.unsplash.com/photo-1561501900-3701fa6a0864?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Quote "Emma&James" for 20% discount'
+      specialOffer: 'Nennen Sie "Florian&Menia" für 20% Rabatt'
     },
     {
       name: "Meadowside B&B",
-      location: "Mickleton (5 minutes from venue)",
-      description: "Charming family-run B&B with homemade breakfast and beautiful countryside views.",
-      priceRange: "£80-120/night",
+      location: "Mickleton (5 Minuten vom Veranstaltungsort)",
+      description: "Charmantes familiengeführtes B&B mit hausgemachtem Frühstück und wunderschönem Blick aufs Land.",
+      priceRange: "£80-120/Nacht",
       rating: 4.7,
       image: "https://images.unsplash.com/photo-1520637836862-4d197d17c50a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: 'Quote "Emma&James" for 10% discount'
+      specialOffer: 'Nennen Sie "Florian&Menia" für 10% Rabatt'
     },
     {
       name: "The Lygon Arms",
-      location: "Broadway (10 minutes from venue)",
-      description: "Iconic hotel with 600 years of history, recently renovated with modern luxury.",
-      priceRange: "£180-280/night",
+      location: "Broadway (10 Minuten vom Veranstaltungsort)",
+      description: "Ikonisches Hotel mit 600 Jahren Geschichte, kürzlich renoviert mit modernem Luxus.",
+      priceRange: "£180-280/Nacht",
       rating: 4.6,
       image: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: "Group booking available"
+      specialOffer: "Gruppenbuchung verfügbar"
     },
     {
       name: "Honeysuckle Cottage",
-      location: "Hidcote (7 minutes from venue)",
-      description: "Self-catering cottage perfect for families, sleeps up to 6 guests.",
-      priceRange: "£150-200/night",
+      location: "Hidcote (7 Minuten vom Veranstaltungsort)",
+      description: "Selbstversorger-Cottage perfekt für Familien, bietet Platz für bis zu 6 Gäste.",
+      priceRange: "£150-200/Nacht",
       rating: 4.8,
       image: "https://images.unsplash.com/photo-1505916349660-8d91a99c3e23?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: "Minimum 2-night stay"
+      specialOffer: "Mindestaufenthalt 2 Nächte"
     },
     {
       name: "The Old Barn",
-      location: "Broad Campden (3 minutes from venue)",
-      description: "Converted 18th-century barn with modern amenities and countryside views.",
-      priceRange: "£100-160/night",
+      location: "Broad Campden (3 Minuten vom Veranstaltungsort)",
+      description: "Umgebaute Scheune aus dem 18. Jahrhundert mit modernen Annehmlichkeiten und Landschaftsblick.",
+      priceRange: "£100-160/Nacht",
       rating: 4.9,
       image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      specialOffer: "Pet-friendly option available"
+      specialOffer: "Haustierfreundliche Option verfügbar"
     }
   ];
 
@@ -73,10 +73,10 @@ export default function Accommodation() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-serif text-4xl md:text-5xl font-light text-wedding-dark-brown mb-4">
-            Where to Stay
+            Übernachtungsmöglichkeiten
           </h2>
           <p className="text-lg text-wedding-medium-brown max-w-2xl mx-auto">
-            We've arranged special rates at these lovely local accommodations
+            Wir haben Sonderpreise in diesen schönen lokalen Unterkünften arrangiert
           </p>
         </div>
 
@@ -119,14 +119,14 @@ export default function Accommodation() {
         <div className="text-center mt-12">
           <div className="bg-white rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="font-serif text-xl font-semibold text-wedding-dark-brown mb-4">
-              Booking Information
+              Buchungsinformationen
             </h3>
             <p className="text-wedding-dark-brown mb-4">
-              We recommend booking accommodation as soon as possible, especially for June weekends. 
-              All listed properties have been contacted about our wedding group.
+              Wir empfehlen, Unterkünfte so bald wie möglich zu buchen, besonders für Juni-Wochenenden. 
+              Alle aufgelisteten Unterkünfte wurden über unsere Hochzeitsgesellschaft informiert.
             </p>
             <p className="text-sm text-wedding-medium-brown">
-              For assistance with bookings or alternative options, please contact us.
+              Für Hilfe bei Buchungen oder alternative Optionen kontaktieren Sie uns bitte.
             </p>
           </div>
         </div>
