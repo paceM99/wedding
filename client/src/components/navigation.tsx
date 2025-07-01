@@ -72,6 +72,14 @@ export default function Navigation() {
             </li>
             <li>
               <button 
+                onClick={() => scrollToSection('beachbars')}
+                className="hover:text-wedding-medium-brown transition-colors"
+              >
+                Beach Bars
+              </button>
+            </li>
+            <li>
+              <button 
                 onClick={() => scrollToSection('contact')}
                 className="hover:text-wedding-medium-brown transition-colors"
               >
@@ -127,6 +135,14 @@ export default function Navigation() {
                   className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
                 >
                   Übernachtung
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => scrollToSection('beachbars')}
+                  className="block w-full text-left hover:text-wedding-medium-brown transition-colors"
+                >
+                  Beach Bars
                 </button>
               </li>
               <li>

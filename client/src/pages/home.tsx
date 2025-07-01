@@ -3,6 +3,7 @@ import Hero from "@/components/sections/hero";
 import Schedule from "@/components/sections/schedule";
 import Venue from "@/components/sections/venue";
 import Accommodation from "@/components/sections/accommodation";
+import BeachBars from "@/components/sections/beachbars";
 import Contact from "@/components/sections/contact";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Schedule />
       <Venue />
       <Accommodation />
+      <BeachBars />
       <Contact />
       
       {/* Footer */}
