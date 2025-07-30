@@ -30,7 +30,8 @@ export default function Hero() {
           <img 
             src="https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
             alt="Elegant wedding couple portrait" 
-            className="w-64 h-64 object-cover rounded-full mx-auto shadow-2xl border-4 border-white"
+            className="w-64 h-64 object-cover rounded-full shadow-2xl border-4 border-white"
+            style={{ marginLeft: 'calc(50% + 200px)', transform: 'translateX(-50%)' }}
           />
         </div>
         
