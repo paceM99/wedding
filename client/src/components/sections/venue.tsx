@@ -88,7 +88,7 @@ export default function Venue() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Beautiful venue image */}
             <img 
-              src="/attached_assets/IMG_4522_1753896500541.PNG" 
+              src="/attached_assets/Album-corporate-events-kalitheaspringts-8-768x550_1753896655341.jpg" 
               alt="Kallithea Springs wedding venue in Rhodes with crystal clear waters and beautiful Mediterranean architecture" 
               className="w-full h-80 object-cover rounded-2xl shadow-2xl"
             />
