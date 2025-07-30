@@ -60,11 +60,11 @@ export default function BeachBars() {
     {
       name: "Tambakio Beach Bar",
       location: "Rhodos",
-      description: "Lebendige Strandbar mit Live-Musik und energiegeladener Atmosphäre, perfekt für Partyliebhaber.",
-      image: "https://images.unsplash.com/photo-1551524164-6cf6ac6a5a3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      description: "Elegante Strandbar mit traditioneller griechischer Architektur, wunderschönen Bögen und mediterraner Atmosphäre mit Blick aufs Meer.",
+      image: "/attached_assets/96C78B6E-B13E-47F7-8E93-78F98B33AD90_1753894815397.jpg",
       website: "https://www.tambakio.com/",
       rating: 4.4,
-      specialty: "Live-Musik & Partystimmung"
+      specialty: "Mediterrane Architektur & Meerblick"
     },
     {
       name: "Mojito Beach Bar",
