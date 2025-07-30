@@ -41,20 +41,7 @@ export default function Hero() {
           </p>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button 
-            onClick={() => scrollToSection('schedule')}
-            className="bg-wedding-medium-brown text-white px-8 py-3 rounded-full font-medium hover:bg-wedding-dark-brown transition-colors"
-          >
-            Zeitplan ansehen
-          </button>
-          <button 
-            onClick={() => scrollToSection('venue')}
-            className="border-2 border-wedding-medium-brown text-wedding-medium-brown px-8 py-3 rounded-full font-medium hover:bg-wedding-medium-brown hover:text-white transition-colors"
-          >
-            Veranstaltungsort Details
-          </button>
-        </div>
+
       </div>
     </section>
   );
