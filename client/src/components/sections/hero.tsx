@@ -1,4 +1,5 @@
 import { MapPin } from "lucide-react";
+import backgroundImage from "@assets/IMG_9166.jpg";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -13,8 +14,17 @@ export default function Hero() {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-hero pt-20">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+    <section 
+      id="home" 
+      className="min-h-screen flex items-center justify-center pt-20 relative"
+      style={{
+        backgroundImage: `linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
+      <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
         {/* Beautiful couple portrait */}
         <div className="mb-8">
           <img 
