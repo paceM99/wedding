@@ -1,4 +1,5 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
+import tambakioImage from "@assets/96C78B6E-B13E-47F7-8E93-78F98B33AD90_1753894815397.jpg";
 
 interface BeachBar {
   name: string;
@@ -61,7 +62,7 @@ export default function BeachBars() {
       name: "Tambakio Beach Bar",
       location: "Rhodos",
       description: "Elegante Strandbar mit traditioneller griechischer Architektur, wunderschönen Bögen und mediterraner Atmosphäre mit Blick aufs Meer.",
-      image: "/attached_assets/96C78B6E-B13E-47F7-8E93-78F98B33AD90_1753894815397.jpg",
+      image: tambakioImage,
       website: "https://www.tambakio.com/",
       rating: 4.4,
       specialty: "Mediterrane Architektur & Meerblick"
