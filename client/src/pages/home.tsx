@@ -2,6 +2,7 @@ import Hero from "@/components/sections/hero";
 import Schedule from "@/components/sections/schedule";
 import Venue from "@/components/sections/venue";
 import BeachBars from "@/components/sections/beachbars";
+import Countdown from "@/components/countdown";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Schedule />
       <Venue />
       <BeachBars />
+      <Countdown />
       
       {/* Footer */}
       <footer className="bg-wedding-dark-brown text-white py-8">
