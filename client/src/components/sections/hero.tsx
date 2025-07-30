@@ -34,7 +34,7 @@ export default function Hero() {
           Für immer zusammen
         </p>
         <div className="text-lg md:text-xl text-wedding-dark-brown mb-8">
-          <p className="mb-2">Samstag, 15. Juni 2024</p>
+          <p className="mb-2">Freitag, 21.08.2026</p>
           <p className="flex items-center justify-center">
             <MapPin className="mr-2 text-wedding-medium-brown h-5 w-5" />
             Quellen von Kallithea, Rhodos

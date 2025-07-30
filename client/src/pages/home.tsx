@@ -15,7 +15,7 @@ export default function Home() {
       <footer className="bg-wedding-dark-brown text-white py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p className="font-serif text-xl mb-2">Menia & Florian</p>
-          <p className="text-sm opacity-75">15. Juni 2024 • Quellen von Kallithea, Rhodos</p>
+          <p className="text-sm opacity-75">21.08.2026 • Quellen von Kallithea, Rhodos</p>
         </div>
       </footer>
     </div>
