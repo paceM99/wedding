@@ -31,7 +31,7 @@ export default function Schedule() {
       time: "20:00",
       duration: "",
       title: "Dinner",
-      description: "Authentisches griechisches Drei-Gänge-Menü mit Meerblick und Reden",
+      description: "Mediterranisches Buffet mit Meerblick",
       location: "Terrasse am Meer",
       icon: <Utensils className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
