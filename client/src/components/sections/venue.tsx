@@ -100,20 +100,10 @@ export default function Venue() {
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Car className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Mit dem Auto
+                  Zur Hochzeit
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
                   Von Rhodos Stadt: 9 km östlich über die Kallithea Avenue
-                </p>
-              </div>
-
-              <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
-                <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
-                  <Train className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Mit dem Bus
-                </h5>
-                <p className="text-sm text-wedding-dark-brown">
-                  Buslinie von Rhodos Stadt nach Kallithea (15-20 Minuten)
                 </p>
               </div>
             </div>
