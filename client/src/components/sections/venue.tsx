@@ -56,15 +56,15 @@ export default function Venue() {
         // Add green markers for accommodation areas
         L.marker([36.3403, 28.202], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Unterkunftsorte<br>Faliraki');
+          .bindPopup('Unterkunftsort<br>Faliraki');
 
         L.marker([36.38675, 28.21431], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Unterkunftsorte<br>Koskinou');
+          .bindPopup('Unterkunftsort<br>Koskinou');
 
         L.marker([36.3934, 28.2350], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Unterkunftsorte<br>Kallithea');
+          .bindPopup('Unterkunftsort<br>Kallithea');
       }
     };
     
