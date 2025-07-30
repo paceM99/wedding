@@ -1,4 +1,3 @@
-import Navigation from "@/components/navigation";
 import Hero from "@/components/sections/hero";
 import Schedule from "@/components/sections/schedule";
 import Venue from "@/components/sections/venue";
@@ -9,7 +8,6 @@ import Contact from "@/components/sections/contact";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-wedding-dark-brown">
-      <Navigation />
       <Hero />
       <Schedule />
       <Venue />
