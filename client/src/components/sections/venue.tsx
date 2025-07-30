@@ -89,6 +89,16 @@ export default function Venue() {
               
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
+                  <Plane className="text-wedding-medium-brown mr-2 h-5 w-5" />
+                  Mit dem Flugzeug
+                </h5>
+                <p className="text-sm text-wedding-dark-brown">
+                  Direktflüge aus Deutschland
+                </p>
+              </div>
+
+              <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
+                <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Car className="text-wedding-medium-brown mr-2 h-5 w-5" />
                   Mit dem Auto
                 </h5>
@@ -104,16 +114,6 @@ export default function Venue() {
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
                   Buslinie von Rhodos Stadt nach Kallithea (15-20 Minuten)
-                </p>
-              </div>
-
-              <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
-                <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
-                  <Plane className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Mit dem Flugzeug
-                </h5>
-                <p className="text-sm text-wedding-dark-brown">
-                  Flughafen Rhodos (20 Minuten Fahrt) - Direktflüge aus Deutschland
                 </p>
               </div>
             </div>
