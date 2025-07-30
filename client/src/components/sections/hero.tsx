@@ -20,19 +20,12 @@ export default function Hero() {
       style={{
         backgroundImage: `linear-gradient(rgba(245, 245, 220, 0.75), rgba(245, 245, 220, 0.75)), url(${backgroundImage})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'calc(50% + 100px) center',
+        backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="max-w-4xl mx-auto px-4 text-center relative z-10">
-        {/* Beautiful couple portrait */}
-        <div className="mb-8">
-          <img 
-            src="https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-            alt="Elegant wedding couple portrait" 
-            className="w-64 h-64 object-cover rounded-full mx-auto shadow-2xl border-4 border-white"
-          />
-        </div>
+
         
         <h1 className="font-serif text-5xl md:text-7xl font-light text-wedding-dark-brown mb-4">
           Menia <span className="text-wedding-medium-brown">&</span> Florian
