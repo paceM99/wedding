@@ -1,5 +1,6 @@
 import { Building, MapPin, Phone, Car, Users } from "lucide-react";
 import { useEffect, useRef } from "react";
+import venueImage from "@assets/Album-corporate-events-kalitheaspringts-8-768x550_1753896655341.jpg";
 
 export default function Venue() {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ export default function Venue() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Beautiful venue image */}
             <img 
-              src="/attached_assets/Album-corporate-events-kalitheaspringts-8-768x550_1753896655341.jpg" 
+              src={venueImage} 
               alt="Kallithea Springs wedding venue in Rhodes with crystal clear waters and beautiful Mediterranean architecture" 
               className="w-full h-80 object-cover rounded-2xl shadow-2xl"
             />
