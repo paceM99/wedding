@@ -19,13 +19,13 @@ export default function Venue() {
         // Add marker for venue
         L.marker([36.378437, 28.238842])
           .addTo(map)
-          .bindPopup('Quellen von Kallithea<br>Leof. Kallitheas 80, Rodos, Griechenland')
+          .bindPopup('Quellen von Kallithea<br>Leof. Kallitheas 80, Rhodes, Greece')
           .openPopup();
         
         // Add marker for Rhodes Airport
         L.marker([36.402218, 28.081913])
           .addTo(map)
-          .bindPopup('Flughafen Rhodos (RHO)<br>Diagoras International Airport');
+          .bindPopup('Rhodes Airport (RHO)<br>Diagoras International Airport');
       }
     };
     
