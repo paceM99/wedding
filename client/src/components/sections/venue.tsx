@@ -1,4 +1,4 @@
-import { Building, MapPin, Phone, Car, Users, Train, Plane } from "lucide-react";
+import { Building, MapPin, Phone, Car, Users } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 export default function Venue() {
@@ -126,31 +126,7 @@ export default function Venue() {
               style={{ minHeight: '320px' }}
             />
 
-            <div className="space-y-4">
-              <h4 className="font-serif text-xl font-semibold text-wedding-dark-brown">
-                Anreise
-              </h4>
-              
-              <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
-                <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
-                  <Plane className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Mit dem Flugzeug
-                </h5>
-                <p className="text-sm text-wedding-dark-brown">
-                  Direktflüge aus Deutschland zum Flughafen Rhodos
-                </p>
-              </div>
 
-              <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
-                <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
-                  <Car className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Zur Hochzeit
-                </h5>
-                <p className="text-sm text-wedding-dark-brown">
-                  Von Rhodos Stadt: 9 km östlich über die Kallithea Avenue
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
