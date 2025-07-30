@@ -21,6 +21,11 @@ export default function Venue() {
           .addTo(map)
           .bindPopup('Quellen von Kallithea<br>Leof. Kallitheas 80, Rodos, Griechenland')
           .openPopup();
+        
+        // Add marker for Rhodes Airport
+        L.marker([36.402218, 28.081913])
+          .addTo(map)
+          .bindPopup('Flughafen Rhodos (RHO)<br>Diagoras International Airport');
       }
     };
     
