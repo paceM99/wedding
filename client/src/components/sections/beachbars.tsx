@@ -1,5 +1,5 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
-const tambakioImage = "/attached_assets/96C78B6E-B13E-47F7-8E93-78F98B33AD90_1753894815397.jpg";
+import tambakioImage from "@assets/96C78B6E-B13E-47F7-8E93-78F98B33AD90_1753894815397.jpg";
 
 interface BeachBar {
   name: string;

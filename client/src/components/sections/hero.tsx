@@ -1,5 +1,5 @@
 import { MapPin } from "lucide-react";
-const backgroundImage = "/attached_assets/IMG_9166.jpg";
+import backgroundImage from "@assets/IMG_9166.jpg";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {

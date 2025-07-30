@@ -1,7 +1,7 @@
 import { Building, MapPin, Phone, Car, Users } from "lucide-react";
 import { useEffect, useRef } from "react";
 
-const IMG_4522 = "/attached_assets/IMG_4522.PNG";
+import IMG_4522 from "@assets/IMG_4522.PNG";
 
 export default function Venue() {
   const mapRef = useRef<HTMLDivElement>(null);
