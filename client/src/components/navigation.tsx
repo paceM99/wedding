@@ -78,14 +78,7 @@ export default function Navigation() {
                 Beach Bars
               </button>
             </li>
-            <li>
-              <button 
-                onClick={() => scrollToSection('contact')}
-                className="hover:text-wedding-medium-brown transition-colors"
-              >
-                Kontakt
-              </button>
-            </li>
+
           </ul>
 
           {/* Mobile Menu Button */}

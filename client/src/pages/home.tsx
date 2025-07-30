@@ -2,7 +2,6 @@ import Hero from "@/components/sections/hero";
 import Schedule from "@/components/sections/schedule";
 import Venue from "@/components/sections/venue";
 import BeachBars from "@/components/sections/beachbars";
-import Contact from "@/components/sections/contact";
 
 export default function Home() {
   return (
@@ -11,7 +10,6 @@ export default function Home() {
       <Schedule />
       <Venue />
       <BeachBars />
-      <Contact />
       
       {/* Footer */}
       <footer className="bg-wedding-dark-brown text-white py-8">
