@@ -83,13 +83,14 @@ export default function Venue() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          <div>
+        <div className="space-y-12">
+          {/* Venue Information Section */}
+          <div className="grid md:grid-cols-2 gap-8">
             {/* Beautiful venue image */}
             <img 
               src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
               alt="Beautiful Greek island wedding venue with crystal clear waters and Mediterranean architecture" 
-              className="w-full h-80 object-cover rounded-2xl shadow-2xl mb-8"
+              className="w-full h-80 object-cover rounded-2xl shadow-2xl"
             />
             
             <div className="bg-wedding-creme rounded-2xl p-8">
@@ -118,15 +119,16 @@ export default function Venue() {
             </div>
           </div>
 
-          <div>
-            {/* Map */}
+          {/* Map Section */}
+          <div className="w-full">
+            <h3 className="font-serif text-2xl font-semibold text-wedding-dark-brown mb-6 text-center">
+              Lage & Umgebung
+            </h3>
             <div 
               ref={mapRef}
-              className="bg-wedding-creme rounded-2xl h-80 mb-8"
-              style={{ minHeight: '320px' }}
+              className="bg-wedding-creme rounded-2xl h-96 w-full shadow-lg"
+              style={{ minHeight: '400px' }}
             />
-
-
           </div>
         </div>
       </div>
