@@ -29,6 +29,19 @@ export default function Venue() {
           popupAnchor: [0, -36]
         });
 
+        // Create green icon for tourist areas
+        const greenIcon = L.icon({
+          iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
+              <path fill="#16a34a" stroke="#ffffff" stroke-width="1" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"/>
+              <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+            </svg>
+          `),
+          iconSize: [24, 36],
+          iconAnchor: [12, 36],
+          popupAnchor: [0, -36]
+        });
+
         // Add marker for venue with red icon
         L.marker([36.378437, 28.238842], { icon: redIcon })
           .addTo(map)
@@ -39,6 +52,19 @@ export default function Venue() {
         L.marker([36.402218, 28.081913])
           .addTo(map)
           .bindPopup('Rhodes Airport (RHO)<br>Diagoras International Airport');
+
+        // Add green markers for tourist areas
+        L.marker([36.3403, 28.202], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Faliraki<br>Popular beach resort');
+
+        L.marker([36.38675, 28.21431], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Koskinou<br>Traditional village');
+
+        L.marker([36.3934, 28.2350], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Kallithea<br>Beach and springs area');
       }
     };
     
