@@ -93,7 +93,7 @@ export default function Venue() {
                   Mit dem Flugzeug
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Direktflüge aus Deutschland
+                  Direktflüge aus Deutschland zum Flughafen Rhodos
                 </p>
               </div>
 
