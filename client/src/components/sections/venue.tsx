@@ -45,26 +45,26 @@ export default function Venue() {
         // Add marker for venue with red icon
         L.marker([36.378437, 28.238842], { icon: redIcon })
           .addTo(map)
-          .bindPopup('Quellen von Kallithea<br>Leof. Kallitheas 80, Rhodes, Greece')
+          .bindPopup('Hochzeitslocation<br>Quellen von Kallithea<br>Leof. Kallitheas 80, Rhodes, Greece')
           .openPopup();
         
         // Add marker for Rhodes Airport
         L.marker([36.402218, 28.081913])
           .addTo(map)
-          .bindPopup('Rhodes Airport (RHO)<br>Diagoras International Airport');
+          .bindPopup('Flughafen<br>Rhodes Airport (RHO)<br>Diagoras International Airport');
 
-        // Add green markers for tourist areas
+        // Add green markers for accommodation areas
         L.marker([36.3403, 28.202], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Faliraki<br>Popular beach resort');
+          .bindPopup('Unterkunftsorte<br>Faliraki');
 
         L.marker([36.38675, 28.21431], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Koskinou<br>Traditional village');
+          .bindPopup('Unterkunftsorte<br>Koskinou');
 
         L.marker([36.3934, 28.2350], { icon: greenIcon })
           .addTo(map)
-          .bindPopup('Kallithea<br>Beach and springs area');
+          .bindPopup('Unterkunftsorte<br>Kallithea');
       }
     };
     
