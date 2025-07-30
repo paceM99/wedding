@@ -1,4 +1,4 @@
-import { Heart, Camera, Utensils, Music, MapPin } from "lucide-react";
+import { Heart, Camera, Utensils, Music, MapPin, Cake } from "lucide-react";
 
 interface ScheduleItem {
   time: string;
@@ -12,36 +12,36 @@ interface ScheduleItem {
 export default function Schedule() {
   const scheduleItems: ScheduleItem[] = [
     {
-      time: "14:30",
+      time: "18:00",
       duration: "30 Minuten",
-      title: "Trauungszeremonie",
-      description: "Begleiten Sie uns beim Austausch der Ehegelübde im wunderschönen Rosengarten",
-      location: "Rosewood Manor Gärten",
+      title: "Trauung",
+      description: "Begleiten Sie uns beim Austausch der Ehegelübde in der malerischen Kulisse der Kallithea Quellen",
+      location: "Quellen von Kallithea",
       icon: <Heart className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "15:30",
+      time: "18:30",
       duration: "90 Minuten",
-      title: "Sektempfang & Fotos",
-      description: "Genießen Sie Getränke und Canapés, während wir Erinnerungen festhalten",
-      location: "Herrenhaus Terrasse & Garten",
+      title: "Sektempfang und Fotos",
+      description: "Genießen Sie Prosecco und griechische Häppchen, während wir Erinnerungen festhalten",
+      location: "Gärten der Kallithea Quellen",
       icon: <Camera className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "18:00",
-      duration: "3 Stunden",
-      title: "Hochzeitsfeier",
-      description: "Drei-Gänge-Menü mit Reden und Ansprachen",
-      location: "Großer Ballsaal",
+      time: "20:00",
+      duration: "90 Minuten",
+      title: "Dinner",
+      description: "Authentisches griechisches Drei-Gänge-Menü mit Meerblick und Reden",
+      location: "Terrasse am Meer",
       icon: <Utensils className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
     {
-      time: "21:00",
+      time: "21:30",
       duration: "Bis spät",
-      title: "Tanz & Feier",
-      description: "Live-Band und DJ zum Tanzen bis in die frühen Morgenstunden",
-      location: "Großer Ballsaal & Terrasse",
-      icon: <Music className="text-wedding-medium-brown mr-2 h-5 w-5" />
+      title: "First Dance, Hochzeitstorte & Party",
+      description: "Eröffnungstanz, Anschnitt der Torte und Feier bis in die frühen Morgenstunden",
+      location: "Terrasse & Tanzbereich",
+      icon: <Cake className="text-wedding-medium-brown mr-2 h-5 w-5" />
     }
   ];
 
