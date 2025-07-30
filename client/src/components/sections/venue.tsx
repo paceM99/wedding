@@ -1,6 +1,8 @@
 import { Building, MapPin, Phone, Car, Users } from "lucide-react";
 import { useEffect, useRef } from "react";
 
+import IMG_4522 from "@assets/IMG_4522.PNG";
+
 export default function Venue() {
   const mapRef = useRef<HTMLDivElement>(null);
 
@@ -88,9 +90,9 @@ export default function Venue() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Beautiful venue image */}
             <img 
-              src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              src={IMG_4522} 
               alt="Beautiful Greek island wedding venue with crystal clear waters and Mediterranean architecture" 
-              className="w-full h-80 object-cover rounded-2xl shadow-2xl"
+              className="w-full h-80 object-cover rounded-2xl shadow-2xl ml-[0px] mr-[0px] pl-[0px] pr-[0px]"
             />
             
             <div className="bg-wedding-creme rounded-2xl p-8">
