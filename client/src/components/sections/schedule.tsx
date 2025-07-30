@@ -15,7 +15,7 @@ export default function Schedule() {
       time: "18:00",
       duration: "",
       title: "Trauung",
-      description: "Begleiten Sie uns beim Austausch der Ehegelübde in der malerischen Kulisse der Kallithea Quellen",
+      description: "Begleitet uns beim Austausch der Ehegelübde in der malerischen Kulisse der Kallithea Quellen",
       location: "Quellen von Kallithea",
       icon: <Heart className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
@@ -23,7 +23,7 @@ export default function Schedule() {
       time: "18:30",
       duration: "",
       title: "Sektempfang und Fotos",
-      description: "Genießen Sie Prosecco und griechische Häppchen, während wir Erinnerungen festhalten",
+      description: "Genießt Prosecco und griechische Häppchen, während wir Erinnerungen festhalten",
       location: "Gärten der Kallithea Quellen",
       icon: <Camera className="text-wedding-medium-brown mr-2 h-5 w-5" />
     },
@@ -53,7 +53,7 @@ export default function Schedule() {
             Hochzeitsablauf
           </h2>
           <p className="text-lg text-wedding-medium-brown max-w-2xl mx-auto">
-            Feiern Sie mit uns einen Tag voller Liebe, Lachen und Freude
+            Feiert mit uns einen Tag voller Liebe, Lachen und Freude
           </p>
         </div>
 

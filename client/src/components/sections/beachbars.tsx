@@ -123,7 +123,7 @@ export default function BeachBars() {
           </h2>
           <div className="w-24 h-0.5 bg-wedding-medium-brown mx-auto mb-6"></div>
           <p className="text-lg text-wedding-medium-brown max-w-3xl mx-auto">
-            Entdecken Sie die schönsten Strandbars von Rhodos für unvergessliche Momente am Meer. 
+            Entdeckt die schönsten Strandbars von Rhodos für unvergessliche Momente am Meer. 
             Von entspannten Sundowners bis hin zu lebendigen Partyabenden.
           </p>
         </div>
