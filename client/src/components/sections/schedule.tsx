@@ -13,7 +13,7 @@ export default function Schedule() {
   const scheduleItems: ScheduleItem[] = [
     {
       time: "18:00",
-      duration: "30 Minuten",
+      duration: "",
       title: "Trauung",
       description: "Begleiten Sie uns beim Austausch der Ehegelübde in der malerischen Kulisse der Kallithea Quellen",
       location: "Quellen von Kallithea",
@@ -21,7 +21,7 @@ export default function Schedule() {
     },
     {
       time: "18:30",
-      duration: "90 Minuten",
+      duration: "",
       title: "Sektempfang und Fotos",
       description: "Genießen Sie Prosecco und griechische Häppchen, während wir Erinnerungen festhalten",
       location: "Gärten der Kallithea Quellen",
@@ -29,7 +29,7 @@ export default function Schedule() {
     },
     {
       time: "20:00",
-      duration: "90 Minuten",
+      duration: "",
       title: "Dinner",
       description: "Authentisches griechisches Drei-Gänge-Menü mit Meerblick und Reden",
       location: "Terrasse am Meer",
@@ -37,7 +37,7 @@ export default function Schedule() {
     },
     {
       time: "21:30",
-      duration: "Bis spät",
+      duration: "",
       title: "First Dance, Hochzeitstorte & Party",
       description: "Eröffnungstanz, Anschnitt der Torte und Feier bis in die frühen Morgenstunden",
       location: "Terrasse & Tanzbereich",
@@ -64,9 +64,6 @@ export default function Schedule() {
                 <div className="md:w-1/4 mb-4 md:mb-0">
                   <div className="text-2xl font-serif font-semibold text-wedding-medium-brown">
                     {item.time}
-                  </div>
-                  <div className="text-sm text-wedding-dark-brown">
-                    {item.duration}
                   </div>
                 </div>
                 <div className="md:w-3/4">
