@@ -33,14 +33,14 @@ export default function Countdown() {
   }, []);
 
   return (
-    <section className="py-16 bg-gradient-to-r from-wedding-light-brown to-wedding-medium-brown">
+    <section className="py-16 bg-gradient-to-r from-wedding-medium-brown to-wedding-dark-brown">
       <div className="max-w-4xl mx-auto px-4 text-center">
         <h2 className="font-serif text-3xl md:text-4xl font-light text-white mb-8">
           Countdown bis zur Hochzeit
         </h2>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
+          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white border border-white/30">
             <div className="text-3xl md:text-5xl font-bold font-serif mb-2">
               {timeLeft.days}
             </div>
@@ -49,7 +49,7 @@ export default function Countdown() {
             </div>
           </div>
           
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
+          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white border border-white/30">
             <div className="text-3xl md:text-5xl font-bold font-serif mb-2">
               {timeLeft.hours}
             </div>
@@ -58,7 +58,7 @@ export default function Countdown() {
             </div>
           </div>
           
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
+          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white border border-white/30">
             <div className="text-3xl md:text-5xl font-bold font-serif mb-2">
               {timeLeft.minutes}
             </div>
@@ -67,7 +67,7 @@ export default function Countdown() {
             </div>
           </div>
           
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-white">
+          <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 text-white border border-white/30">
             <div className="text-3xl md:text-5xl font-bold font-serif mb-2">
               {timeLeft.seconds}
             </div>

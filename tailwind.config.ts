@@ -61,6 +61,12 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        wedding: {
+          creme: "var(--wedding-creme)",
+          "light-brown": "var(--wedding-light-brown)",
+          "medium-brown": "var(--wedding-medium-brown)",
+          "dark-brown": "var(--wedding-dark-brown)",
+        },
       },
       keyframes: {
         "accordion-down": {
