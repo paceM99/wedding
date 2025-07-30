@@ -37,7 +37,7 @@ export default function Hero() {
           <p className="mb-2">Samstag, 15. Juni 2024</p>
           <p className="flex items-center justify-center">
             <MapPin className="mr-2 text-wedding-medium-brown h-5 w-5" />
-            Rosewood Manor, Cotswolds
+            Quellen von Kallithea, Rhodos
           </p>
         </div>
         

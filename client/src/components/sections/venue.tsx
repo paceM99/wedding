@@ -10,16 +10,16 @@ export default function Venue() {
       const L = (await import('leaflet')).default;
       
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
-        const map = L.map(mapRef.current).setView([52.0378, -1.7822], 13);
+        const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '© OpenStreetMap contributors'
         }).addTo(map);
         
         // Add marker for venue
-        L.marker([52.0378, -1.7822])
+        L.marker([36.378437, 28.238842])
           .addTo(map)
-          .bindPopup('Rosewood Manor<br>Chipping Campden, Cotswolds')
+          .bindPopup('Quellen von Kallithea<br>Leof. Kallitheas 80, Rodos, Griechenland')
           .openPopup();
       }
     };
@@ -35,7 +35,7 @@ export default function Venue() {
             Veranstaltungsort & Lage
           </h2>
           <p className="text-lg text-wedding-medium-brown max-w-2xl mx-auto">
-            Eingebettet im Herzen der wunderschönen Cotswolds Landschaft
+            Am kristallklaren Wasser der berühmten Kallithea Quellen auf Rhodos
           </p>
         </div>
 
@@ -43,24 +43,24 @@ export default function Venue() {
           <div>
             {/* Beautiful venue image */}
             <img 
-              src="https://images.unsplash.com/photo-1519167758481-83f29da47cc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Elegant English manor house wedding venue surrounded by gardens" 
+              src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              alt="Beautiful Greek island wedding venue with crystal clear waters and Mediterranean architecture" 
               className="w-full h-80 object-cover rounded-2xl shadow-2xl mb-8"
             />
             
             <div className="bg-wedding-creme rounded-2xl p-8">
               <h3 className="font-serif text-2xl font-semibold text-wedding-dark-brown mb-4 flex items-center">
                 <Building className="text-wedding-medium-brown mr-2 h-6 w-6" />
-                Rosewood Manor
+                Quellen von Kallithea
               </h3>
               <div className="space-y-3 text-wedding-dark-brown">
                 <p className="flex items-start">
                   <MapPin className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5 flex-shrink-0" />
-                  <span>Manor Lane, Chipping Campden, GL55 6UW</span>
+                  <span>Leof. Kallitheas 80, Rodos 851 00, Griechenland</span>
                 </p>
                 <p className="flex items-start">
                   <Phone className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5 flex-shrink-0" />
-                  <span>+44 1386 840 317</span>
+                  <span>+30 22410 65691</span>
                 </p>
                 <p className="flex items-start">
                   <Car className="text-wedding-medium-brown mr-3 mt-1 h-5 w-5 flex-shrink-0" />
@@ -93,17 +93,17 @@ export default function Venue() {
                   Mit dem Auto
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Von London: M40 bis Ausfahrt 8, dann A40 Richtung Cheltenham
+                  Von Rhodos Stadt: 9 km östlich über die Kallithea Avenue
                 </p>
               </div>
 
               <div className="bg-white border border-wedding-light-brown rounded-lg p-4">
                 <h5 className="font-semibold text-wedding-dark-brown mb-2 flex items-center">
                   <Train className="text-wedding-medium-brown mr-2 h-5 w-5" />
-                  Mit dem Zug
+                  Mit dem Bus
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Nächster Bahnhof: Moreton-in-Marsh (15 Minuten mit dem Taxi)
+                  Buslinie von Rhodos Stadt nach Kallithea (15-20 Minuten)
                 </p>
               </div>
 
@@ -113,7 +113,7 @@ export default function Venue() {
                   Mit dem Flugzeug
                 </h5>
                 <p className="text-sm text-wedding-dark-brown">
-                  Flughafen Birmingham (1 Stunde Fahrt) oder Heathrow (1,5 Stunden)
+                  Flughafen Rhodos (20 Minuten Fahrt) - Direktflüge aus Deutschland
                 </p>
               </div>
             </div>
