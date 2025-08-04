@@ -5,6 +5,7 @@ import kalamiImage from "@assets/kalami_new_image.jpeg";
 import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
 import oasisBeachImage from "@assets/oasis_beach_new_image.jpeg";
 import kallitheaSpringsImage from "@assets/kallithea_springs_new_image.jpeg";
+import mojitoImage from "@assets/mojito_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -76,7 +77,7 @@ export default function BeachBars() {
       name: "Mojito Beach Bar",
       location: "Rhodos",
       description: "Spezialisiert auf Mojitos und kubanische Vibes, mit Sand zwischen den Zehen und Salsa-Rhythmen.",
-      image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: mojitoImage,
       website: "https://mojito-beachbar.gr/",
       rating: 4.6,
       specialty: "Mojitos & Kubanische Atmosphäre"
