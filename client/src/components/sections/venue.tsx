@@ -130,6 +130,27 @@ export default function Venue() {
               className="bg-wedding-creme rounded-2xl h-96 w-full shadow-lg"
               style={{ minHeight: '400px' }}
             />
+            
+            {/* Map Legend */}
+            <div className="mt-6 bg-white rounded-lg p-6 shadow-lg">
+              <h4 className="font-serif text-lg font-semibold text-wedding-dark-brown mb-4 text-center">
+                Kartenlegende
+              </h4>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-6 h-6 bg-red-600 rounded-full border-2 border-white shadow-md"></div>
+                  <span className="text-wedding-dark-brown font-medium">Hochzeitslocation</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-6 h-6 bg-green-600 rounded-full border-2 border-white shadow-md"></div>
+                  <span className="text-wedding-dark-brown font-medium">Empfohlene Unterkunftsorte</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3">
+                  <div className="w-6 h-6 bg-blue-600 rounded-full border-2 border-white shadow-md"></div>
+                  <span className="text-wedding-dark-brown font-medium">Flughafen</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
