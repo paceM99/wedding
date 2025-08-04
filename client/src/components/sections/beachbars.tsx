@@ -1,7 +1,7 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
 import tambakioImage from "@assets/beachbar_image.jpeg";
 import nayaImage from "@assets/naya_new_image.jpeg";
-import kalamiImage from "@assets/kalami_beach_image.jpg";
+import kalamiImage from "@assets/kalami_new_image.jpeg";
 
 interface BeachBar {
   name: string;
