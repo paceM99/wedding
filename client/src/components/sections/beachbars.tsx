@@ -9,6 +9,7 @@ import mojitoImage from "@assets/mojito_new_image.jpeg";
 import tulumImage from "@assets/tulum_new_image.jpeg";
 import galazioImage from "@assets/galazio_new_image.jpeg";
 import azulImage from "@assets/azul_new_image.jpeg";
+import rondaImage from "@assets/ronda_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -113,13 +114,13 @@ export default function BeachBars() {
       specialty: "Mediterrane Küche & Design"
     },
     {
-      name: "Nor Project",
+      name: "Ronda Bar",
       location: "Rhodos",
-      description: "Innovative Strandbar mit modernem Konzept, nachhaltigen Praktiken und kreativen Cocktails.",
-      image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
-      website: "https://norproject.gr/",
-      rating: 4.6,
-      specialty: "Nachhaltigkeit & Innovation"
+      description: "Entspannte Strandbar mit herrlichem Meerblick und gemütlicher Atmosphäre für perfekte Sonnenuntergänge.",
+      image: rondaImage,
+      website: "https://ronda.gr/beach-bar/",
+      rating: 4.5,
+      specialty: "Sonnenuntergänge & Entspannung"
     }
   ];
 
