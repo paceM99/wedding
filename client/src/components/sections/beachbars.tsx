@@ -1,5 +1,5 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
-import tambakioImage from "@assets/beachbar_image.jpeg";
+import tambakioImage from "@assets/tambakio_new_image.jpeg";
 import nayaImage from "@assets/naya_new_image.jpeg";
 import kalamiImage from "@assets/kalami_new_image.jpeg";
 import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
