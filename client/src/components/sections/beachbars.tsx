@@ -4,6 +4,7 @@ import nayaImage from "@assets/naya_new_image.jpeg";
 import kalamiImage from "@assets/kalami_new_image.jpeg";
 import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
 import oasisBeachImage from "@assets/oasis_beach_new_image.jpeg";
+import kallitheaSpringsImage from "@assets/kallithea_springs_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -57,7 +58,7 @@ export default function BeachBars() {
       name: "Kallithea Springs",
       location: "Kallithea Thermalquellen",
       description: "Historische Thermalquellen mit Beach Bar, kombiniert Wellness mit mediterranem Genuss.",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: kallitheaSpringsImage,
       website: "https://kallitheasprings.com/",
       rating: 4.9,
       specialty: "Wellness & Thermalquellen"
