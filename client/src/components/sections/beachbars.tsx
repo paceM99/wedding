@@ -3,6 +3,7 @@ import tambakioImage from "@assets/beachbar_image.jpeg";
 import nayaImage from "@assets/naya_new_image.jpeg";
 import kalamiImage from "@assets/kalami_new_image.jpeg";
 import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
+import oasisBeachImage from "@assets/oasis_beach_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -47,7 +48,7 @@ export default function BeachBars() {
       name: "Oasis Beach Kallithea",
       location: "Kallithea",
       description: "Tropische Oase mit Palmen und kristallklarem Wasser, ideal für einen entspannten Tag am Strand.",
-      image: "https://images.unsplash.com/photo-1520454974749-611b7248ffdb?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: oasisBeachImage,
       website: "https://oasisbeachkallithea.com/",
       rating: 4.5,
       specialty: "Tropische Drinks & Entspannung"
