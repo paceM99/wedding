@@ -6,6 +6,7 @@ import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
 import oasisBeachImage from "@assets/oasis_beach_new_image.jpeg";
 import kallitheaSpringsImage from "@assets/kallithea_springs_new_image.jpeg";
 import mojitoImage from "@assets/mojito_new_image.jpeg";
+import tulumImage from "@assets/tulum_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -86,7 +87,7 @@ export default function BeachBars() {
       name: "Tulum Beach Bar",
       location: "Rhodos",
       description: "Mexikanisch inspirierte Beach Bar mit Tulum-Atmosphäre, Tacos und exotischen Cocktails.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: tulumImage,
       website: "https://tulumbeachbar.gr/",
       rating: 4.7,
       specialty: "Mexikanische Küche & Tequila"
