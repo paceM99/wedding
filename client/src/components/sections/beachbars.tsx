@@ -2,6 +2,7 @@ import { ExternalLink, MapPin, Star } from "lucide-react";
 import tambakioImage from "@assets/beachbar_image.jpeg";
 import nayaImage from "@assets/naya_new_image.jpeg";
 import kalamiImage from "@assets/kalami_new_image.jpeg";
+import santaMarinaImage from "@assets/santa_marina_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -37,7 +38,7 @@ export default function BeachBars() {
       name: "Santa Marina Beach Bar",
       location: "Santa Marina, Rhodos",
       description: "Stilvolle Strandbar mit modernem Design, perfekt für Sonnenuntergänge und erfrischende Getränke.",
-      image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: santaMarinaImage,
       website: "https://santamarinarhodes.gr/",
       rating: 4.7,
       specialty: "Sunset Cocktails & Lounge"
