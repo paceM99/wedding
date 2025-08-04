@@ -8,6 +8,7 @@ import kallitheaSpringsImage from "@assets/kallithea_springs_new_image.jpeg";
 import mojitoImage from "@assets/mojito_new_image.jpeg";
 import tulumImage from "@assets/tulum_new_image.jpeg";
 import galazioImage from "@assets/galazio_new_image.jpeg";
+import azulImage from "@assets/azul_new_image.jpeg";
 
 interface BeachBar {
   name: string;
@@ -106,7 +107,7 @@ export default function BeachBars() {
       name: "Azul Rhodes",
       location: "Rhodos",
       description: "Elegante blaue Strandbar mit minimalistischem Design und erstklassigen mediterranen Gerichten.",
-      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: azulImage,
       website: "https://azulrhodes.com/",
       rating: 4.9,
       specialty: "Mediterrane Küche & Design"
