@@ -17,7 +17,7 @@ export default function BeachBars() {
       name: "Naya Beach Bar",
       location: "Rhodos",
       description: "Luxuriöse Strandbar mit spektakulärem Meerblick und erstklassigen Cocktails in eleganter Atmosphäre.",
-      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: "https://images.unsplash.com/photo-1537734706458-8133f87b2b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
       website: "https://www.nayarhodes.com/",
       rating: 4.8,
       specialty: "Signature Cocktails & Meeresfrüchte"
@@ -26,7 +26,7 @@ export default function BeachBars() {
       name: "Kalami Beach Bar",
       location: "Kalami Strand",
       description: "Authentische griechische Strandbar mit traditionellen Speisen und entspannter Atmosphäre direkt am Wasser.",
-      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: "https://images.unsplash.com/photo-1573840635361-c04f5c76cf67?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
       website: "https://www.kalamibeachbar.gr/",
       rating: 4.6,
       specialty: "Griechische Küche & Ouzo"
