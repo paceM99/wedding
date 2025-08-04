@@ -1,5 +1,7 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
 import tambakioImage from "@assets/beachbar_image.jpeg";
+import nayaImage from "@assets/naya_beach_image.jpg";
+import kalamiImage from "@assets/kalami_beach_image.jpg";
 
 interface BeachBar {
   name: string;
@@ -17,7 +19,7 @@ export default function BeachBars() {
       name: "Naya Beach Bar",
       location: "Rhodos",
       description: "Luxuriöse Strandbar mit spektakulärem Meerblick und erstklassigen Cocktails in eleganter Atmosphäre.",
-      image: "https://images.unsplash.com/photo-1537734706458-8133f87b2b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: nayaImage,
       website: "https://www.nayarhodes.com/",
       rating: 4.8,
       specialty: "Signature Cocktails & Meeresfrüchte"
@@ -26,7 +28,7 @@ export default function BeachBars() {
       name: "Kalami Beach Bar",
       location: "Kalami Strand",
       description: "Authentische griechische Strandbar mit traditionellen Speisen und entspannter Atmosphäre direkt am Wasser.",
-      image: "https://images.unsplash.com/photo-1573840635361-c04f5c76cf67?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=250",
+      image: kalamiImage,
       website: "https://www.kalamibeachbar.gr/",
       rating: 4.6,
       specialty: "Griechische Küche & Ouzo"
