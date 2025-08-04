@@ -1,6 +1,6 @@
 import { Building, MapPin, Phone, Car, Users } from "lucide-react";
 import { useEffect, useRef } from "react";
-import venueImage from "@assets/Album-corporate-events-kalitheaspringts-8-768x550_1753896655341.jpg";
+import venueImage from "@assets/WhatsApp Image 2025-08-04 at 16.17.17_1754317061694.jpeg";
 
 export default function Venue() {
   const mapRef = useRef<HTMLDivElement>(null);
