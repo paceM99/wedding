@@ -1,5 +1,5 @@
 import { ExternalLink, MapPin, Star } from "lucide-react";
-import tambakioImage from "@assets/WhatsApp Image 2025-08-04 at 16.22.58_1754317406538.jpeg";
+import tambakioImage from "@assets/beachbar_image.jpeg";
 
 interface BeachBar {
   name: string;
