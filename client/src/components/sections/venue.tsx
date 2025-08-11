@@ -13,9 +13,10 @@ export default function Venue() {
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
         const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-          attribution: '© OpenStreetMap contributors © CARTO',
-          maxZoom: 20
+        // Use Esri World Street Map which provides Latin transliteration for international locations
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+          attribution: 'Tiles © Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012',
+          maxZoom: 18
         }).addTo(map);
         
         // Create red icon for wedding venue
