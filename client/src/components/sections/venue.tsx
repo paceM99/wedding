@@ -13,8 +13,9 @@ export default function Venue() {
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
         const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '© OpenStreetMap contributors'
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+          attribution: '© OpenStreetMap contributors © CARTO',
+          maxZoom: 20
         }).addTo(map);
         
         // Create red icon for wedding venue
