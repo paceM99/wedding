@@ -13,11 +13,48 @@ export default function Venue() {
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
         const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
-        // Use Google Maps tiles which provide Latin transliteration
-        L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-          attribution: '© Google',
+        // Use CartoDB Positron with clean styling - this should show Latin transliteration
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+          subdomains: 'abcd',
           maxZoom: 20
         }).addTo(map);
+        
+        // Add custom text overlays with Latin names for major locations
+        const customMarkers = [
+          { lat: 36.378437, lng: 28.238842, name: 'Kallithea Springs', type: 'venue' },
+          { lat: 36.402218, lng: 28.081913, name: 'Rhodes Airport', type: 'airport' },
+          { lat: 36.3403, lng: 28.202, name: 'Faliraki', type: 'accommodation' },
+          { lat: 36.38675, lng: 28.21431, name: 'Koskinou', type: 'accommodation' },
+          { lat: 36.3934, lng: 28.2350, name: 'Kallithea', type: 'accommodation' }
+        ];
+        
+        // Add custom text labels
+        customMarkers.forEach(marker => {
+          if (marker.type !== 'venue' && marker.type !== 'airport') {
+            const textLabel = L.divIcon({
+              className: 'custom-div-icon',
+              html: `<div style="
+                background: rgba(255,255,255,0.9); 
+                padding: 2px 6px; 
+                border-radius: 4px; 
+                font-size: 11px; 
+                font-weight: bold; 
+                color: #4a5568; 
+                border: 1px solid #e2e8f0;
+                white-space: nowrap;
+                font-family: Inter, sans-serif;
+              ">${marker.name}</div>`,
+              iconSize: [60, 20],
+              iconAnchor: [30, 10]
+            });
+            
+            L.marker([marker.lat, marker.lng], { 
+              icon: textLabel,
+              zIndexOffset: 1000
+            }).addTo(map);
+          }
+        });
         
         // Create red icon for wedding venue
         const redIcon = L.icon({
