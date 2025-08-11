@@ -13,10 +13,10 @@ export default function Venue() {
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
         const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
-        // Use Esri World Street Map which provides Latin transliteration for international locations
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-          attribution: 'Tiles © Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012',
-          maxZoom: 18
+        // Use Google Maps tiles which provide Latin transliteration
+        L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
+          attribution: '© Google',
+          maxZoom: 20
         }).addTo(map);
         
         // Create red icon for wedding venue
@@ -51,8 +51,21 @@ export default function Venue() {
           .bindPopup('Hochzeitslocation<br>Quellen von Kallithea<br>Leof. Kallitheas 80, Rhodes, Greece')
           .openPopup();
         
-        // Add marker for Rhodes Airport
-        L.marker([36.402218, 28.081913])
+        // Create blue icon for airport
+        const blueIcon = L.icon({
+          iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
+              <path fill="#2563eb" stroke="#ffffff" stroke-width="1" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"/>
+              <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+            </svg>
+          `),
+          iconSize: [24, 36],
+          iconAnchor: [12, 36],
+          popupAnchor: [0, -36]
+        });
+
+        // Add marker for Rhodes Airport with blue icon
+        L.marker([36.402218, 28.081913], { icon: blueIcon })
           .addTo(map)
           .bindPopup('Flughafen<br>Rhodes Airport (RHO)<br>Diagoras International Airport');
 
