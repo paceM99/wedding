@@ -19,13 +19,13 @@ export default function Schedule() {
   const scheduleData: DaySchedule[] = [
     {
       date: "19.08.2026",
-      title: "💍✨ Pre-Wedding Get-Together ✨💍",
+      title: "Pre-Wedding Get-Together",
       items: [
         {
           time: "17:00-21:00",
           duration: "",
           title: "Pre-Wedding Get-Together",
-          description: "Lasst uns gemeinsam auf die Liebe anstoßen! Bevor wir 'Ja' sagen, wollen wir mit euch in entspannter Runde feiern - lachen, trinken und die Vorfreude genießen! Für Bier, Wein, Snacks und gute Stimmung ist gesorgt. Kommt vorbei, bringt gute Laune mit - und feiert mit uns den Start in ein unvergessliches Hochzeitswochenende! ❤ Menia & Flo",
+          description: "Lasst uns gemeinsam auf die Liebe anstoßen! Bevor wir 'Ja' sagen, wollen wir mit euch in entspannter Runde feiern - lachen, trinken und die Vorfreude genießen! Für Bier, Wein, Snacks und gute Stimmung ist gesorgt. Kommt vorbei, bringt gute Laune mit - und feiert mit uns den Start in ein unvergessliches Hochzeitswochenende!",
           location: "Überraschung",
           icon: <PartyPopper className="text-wedding-medium-brown mr-2 h-5 w-5" />
         }
@@ -33,7 +33,7 @@ export default function Schedule() {
     },
     {
       date: "21.08.2026",
-      title: "💍✨ Hochzeitstag ✨💍",
+      title: "Hochzeitstag",
       items: [
         {
           time: "18:00",
