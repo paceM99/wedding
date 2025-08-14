@@ -13,10 +13,10 @@ export default function Venue() {
       if (mapRef.current && !mapRef.current.hasChildNodes()) {
         const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
         
-        // Use Wikimedia tiles which provide international Latin script support
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-          attribution: 'Wikimedia maps | Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-          maxZoom: 18
+        // Use standard OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors',
+          maxZoom: 19
         }).addTo(map);
         
         // Add custom text overlays with Latin names for major locations
