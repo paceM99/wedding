@@ -5,7 +5,89 @@ import venueImage from "@assets/venue_image.jpeg";
 export default function Venue() {
   const mapRef = useRef<HTMLDivElement>(null);
 
+  useEffect(() => {
+    const initMap = async () => {
+      const L = (await import('leaflet')).default;
+      
+      if (mapRef.current) {
+        // Clear any existing map
+        mapRef.current.innerHTML = '';
+        
+        const map = L.map(mapRef.current).setView([36.378437, 28.238842], 13);
+        
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '© OpenStreetMap contributors',
+          maxZoom: 19
+        }).addTo(map);
+        
+        // Create red icon for wedding venue
+        const redIcon = L.icon({
+          iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
+              <path fill="#dc2626" stroke="#ffffff" stroke-width="1" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"/>
+              <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+            </svg>
+          `),
+          iconSize: [24, 36],
+          iconAnchor: [12, 36],
+          popupAnchor: [0, -36]
+        });
 
+        // Create green icon for accommodations
+        const greenIcon = L.icon({
+          iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
+              <path fill="#16a34a" stroke="#ffffff" stroke-width="1" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"/>
+              <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+            </svg>
+          `),
+          iconSize: [24, 36],
+          iconAnchor: [12, 36],
+          popupAnchor: [0, -36]
+        });
+
+        // Create blue icon for airport
+        const blueIcon = L.icon({
+          iconUrl: 'data:image/svg+xml;base64,' + btoa(`
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 36" width="24" height="36">
+              <path fill="#2563eb" stroke="#ffffff" stroke-width="1" d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"/>
+              <circle cx="12" cy="12" r="6" fill="#ffffff"/>
+            </svg>
+          `),
+          iconSize: [24, 36],
+          iconAnchor: [12, 36],
+          popupAnchor: [0, -36]
+        });
+
+        // Add wedding venue marker
+        L.marker([36.378437, 28.238842], { icon: redIcon })
+          .addTo(map)
+          .bindPopup('Hochzeitslocation<br>Quellen von Kallithea<br>Leof. Kallitheas 80, Rhodes, Greece')
+          .openPopup();
+        
+        // Add airport marker
+        L.marker([36.402218, 28.081913], { icon: blueIcon })
+          .addTo(map)
+          .bindPopup('Flughafen<br>Rhodes Airport (RHO)<br>Diagoras International Airport');
+
+        // Add accommodation markers
+        L.marker([36.3403, 28.202], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Unterkunftsort<br>Faliraki');
+
+        L.marker([36.38675, 28.21431], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Unterkunftsort<br>Koskinou');
+
+        L.marker([36.3934, 28.2350], { icon: greenIcon })
+          .addTo(map)
+          .bindPopup('Unterkunftsort<br>Kallithea');
+      }
+    };
+    
+    initMap();
+  }, []);
 
   return (
     <section id="venue" className="py-20 bg-white">
