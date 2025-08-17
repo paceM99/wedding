@@ -26,7 +26,7 @@ export default function Schedule() {
           duration: "",
           title: "Pre-Wedding Get-Together",
           description: "Lasst uns gemeinsam auf die Liebe anstoßen! Bevor wir 'Ja' sagen, wollen wir mit euch in entspannter Runde feiern - lachen, trinken und die Vorfreude genießen! Für Bier, Wein, Snacks und gute Stimmung ist gesorgt. Kommt vorbei, bringt gute Laune mit - und feiert mit uns den Start in ein unvergessliches Hochzeitswochenende!",
-          location: "Überraschung",
+          location: "Überraschungsort auf Rhodos",
           icon: <PartyPopper className="text-wedding-medium-brown mr-2 h-5 w-5" />
         }
       ]
