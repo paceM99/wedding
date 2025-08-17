@@ -3,32 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --background: hsl(0, 0%, 100%);
-  --foreground: hsl(32, 22%, 33%);
-  --muted: hsl(45, 35%, 96%);
-  --muted-foreground: hsl(32, 15%, 45%);
-  --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(32, 22%, 33%);
-  --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(32, 22%, 33%);
-  --border: hsl(45, 25%, 88%);
-  --input: hsl(45, 25%, 88%);
-  --primary: hsl(32, 35%, 65%);
-  --primary-foreground: hsl(0, 0%, 100%);
-  --secondary: hsl(45, 35%, 96%);
-  --secondary-foreground: hsl(32, 22%, 15%);
-  --accent: hsl(45, 35%, 96%);
-  --accent-foreground: hsl(32, 22%, 15%);
-  --destructive: hsl(0, 84.2%, 60.2%);
-  --destructive-foreground: hsl(60, 9.1%, 97.8%);
-  --ring: hsl(32, 22%, 33%);
+  --background: #ffffff;
+  --foreground: #6b4423;
+  --muted: #faf8f2;
+  --muted-foreground: #8b6f47;
+  --popover: #ffffff;
+  --popover-foreground: #6b4423;
+  --card: #ffffff;
+  --card-foreground: #6b4423;
+  --border: #e8e0d4;
+  --input: #e8e0d4;
+  --primary: #d4a574;
+  --primary-foreground: #ffffff;
+  --secondary: #faf8f2;
+  --secondary-foreground: #3d2817;
+  --accent: #faf8f2;
+  --accent-foreground: #3d2817;
+  --destructive: #dc2626;
+  --destructive-foreground: #f9fafb;
+  --ring: #6b4423;
   --radius: 0.5rem;
   
-  /* Wedding theme colors */
-  --wedding-creme: hsl(45, 35%, 96%);
-  --wedding-light-brown: hsl(35, 30%, 72%);
-  --wedding-medium-brown: hsl(32, 35%, 65%);
-  --wedding-dark-brown: hsl(32, 22%, 33%);
+  /* Wedding theme colors - standardized hex values */
+  --wedding-creme: #faf8f2;
+  --wedding-light-brown: #e6c49a;
+  --wedding-medium-brown: #d4a574;
+  --wedding-dark-brown: #6b4423;
 }
 
 .dark {
@@ -59,13 +59,35 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+    /* Ensure consistent color rendering across devices */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     @apply font-sans antialiased bg-background text-foreground;
     font-family: 'Inter', sans-serif;
+    /* Force sRGB color space for consistent rendering */
+    color-scheme: light;
+    /* Prevent color shifts on mobile devices */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
   }
 
-  html {
-    scroll-behavior: smooth;
+  /* Ensure consistent image rendering */
+  img {
+    color-scheme: normal;
+    image-rendering: -webkit-optimize-contrast;
+  }
+
+  /* Force consistent button and input styling */
+  button, input, select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
 }
 
