@@ -1,16 +1,9 @@
-// Vercel configuration for WeddingWayfinder deployment
-// Created to properly serve the built React frontend and Node.js backend
-// Ensures API routes are handled by the server and static files are served correctly
 {
   "version": 2,
   "builds": [
     {
       "src": "dist/index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "dist/public/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -20,7 +13,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/dist/public/$1"
+      "dest": "/dist/public/index.html"
     }
   ],
   "outputDirectory": "dist/public"
